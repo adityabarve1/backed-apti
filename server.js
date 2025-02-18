@@ -29,6 +29,9 @@ app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/tests", testRoutes); // Add this line
 app.use("/api", resultRoutes);
+app.get('/', (req, res) => {
+    res.send('Backend is deployed successfully!');
+  });
 
 
 // Server Listening
