@@ -1,0 +1,26 @@
+{
+  "testName": "PTC",
+  "duration": 20,
+  "questions": [
+    { "id": 1, "question": "What is 2 + 2?", "options": ["2", "4", "6", "8"], "answer": "4", "marks": 2 },
+    { "id": 2, "question": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris", "Rome"], "answer": "Paris", "marks": 1 },
+    { "id": 3, "question": "Which data structure uses LIFO?", "options": ["Queue", "Stack", "Heap", "Graph"], "answer": "Stack", "marks": 2 },
+    { "id": 4, "question": "Which programming language is used for Android development?", "options": ["Python", "Java", "C++", "Swift"], "answer": "Java", "marks": 1 },
+    { "id": 5, "question": "What is the time complexity of binary search?", "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"], "answer": "O(log n)", "marks": 2 },
+    { "id": 6, "question": "What does HTTP stand for?", "options": ["HyperText Markup Protocol", "HyperText Transfer Protocol", "HighText Transfer Protocol", "Hyper Transfer Text Protocol"], "answer": "HyperText Transfer Protocol", "marks": 1 },
+    { "id": 7, "question": "Which of the following is not an OS?", "options": ["Linux", "Windows", "Unix", "Python"], "answer": "Python", "marks": 1 },
+    { "id": 8, "question": "What is the output of the following code: `print(2 ** 3)`?", "options": ["6", "8", "9", "16"], "answer": "8", "marks": 2 },
+    { "id": 9, "question": "What does SQL stand for?", "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "System Query Language"], "answer": "Structured Query Language", "marks": 1 },
+    { "id": 10, "question": "Which protocol is used to find the IP address of a domain name?", "options": ["FTP", "DNS", "SMTP", "HTTP"], "answer": "DNS", "marks": 2 },
+    { "id": 11, "question": "Which of the following is a sorting algorithm?", "options": ["Insertion Sort", "Binary Search", "Depth First Search", "Bubble Sort"], "answer": "Insertion Sort", "marks": 2 },
+    { "id": 12, "question": "What is the worst-case time complexity of QuickSort?", "options": ["O(n)", "O(n log n)", "O(log n)", "O(n^2)"], "answer": "O(n^2)", "marks": 2 },
+    { "id": 13, "question": "What is the difference between a process and a thread?", "options": ["Threads share memory, processes do not", "Processes share memory, threads do not", "Both share memory", "None of the above"], "answer": "Threads share memory, processes do not", "marks": 2 },
+    { "id": 14, "question": "Which of the following is a non-relational database?", "options": ["MySQL", "MongoDB", "Oracle", "PostgreSQL"], "answer": "MongoDB", "marks": 2 },
+    { "id": 15, "question": "Which of these data types are immutable in Python?", "options": ["List", "Set", "Tuple", "Dictionary"], "answer": "Tuple", "marks": 2 },
+    { "id": 16, "question": "Which of the following is a valid CSS selector?", "options": [".classname", "#idname", "div", "All of the above"], "answer": "All of the above", "marks": 1 },
+    { "id": 17, "question": "What is the space complexity of Merge Sort?", "options": ["O(1)", "O(n)", "O(n log n)", "O(log n)"], "answer": "O(n)", "marks": 2 },
+    { "id": 18, "question": "Which of the following is a type of algorithm design technique?", "options": ["Divide and Conquer", "Greedy", "Dynamic Programming", "All of the above"], "answer": "All of the above", "marks": 2 },
+    { "id": 19, "question": "What is the time complexity of insertion sort?", "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"], "answer": "O(n^2)", "marks": 2 },
+    { "id": 20, "question": "What is the use of the `git` command?", "options": ["Version Control", "Database Management", "Code Compilation", "Server Management"], "answer": "Version Control", "marks": 1 }
+  ]
+}
