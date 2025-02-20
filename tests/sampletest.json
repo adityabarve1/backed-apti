@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "testName": "Aptitude Test(PTC)",
+=======
+  "testName": "Aptitude Test (PTC)",
+>>>>>>> 59ef598 (activated technical round)
   "duration": 30,
   "questions": [
     { "id": 1, "question": "A train moving at 72 km/h crosses a 500-meter-long bridge in 50 seconds. What is the length of the train?", "options": ["400 m", "300 m", "500 m", "250 m"], "answer": "500 m", "marks": 2 },

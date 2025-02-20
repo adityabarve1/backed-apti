@@ -1,0 +1,171 @@
+{
+  "testName": "Technical Round",
+  "duration": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the difference between an array and a linked list?",
+      "options": [
+        "Arrays are dynamic, linked lists are static",
+        "Arrays use contiguous memory, linked lists use pointers",
+        "Linked lists have a fixed size, arrays do not",
+        "There is no difference"
+      ],
+      "answer": "Arrays use contiguous memory, linked lists use pointers",
+      "marks": 2
+    },
+    {
+      "id": 2,
+      "question": "Which sorting algorithm has the best average-case time complexity?",
+      "options": ["Bubble Sort", "Merge Sort", "Quick Sort", "Selection Sort"],
+      "answer": "Merge Sort",
+      "marks": 2
+    },
+    {
+      "id": 3,
+      "question": "What is the time complexity of searching in a balanced binary search tree (BST)?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(log n)",
+      "marks": 2
+    },
+    {
+      "id": 4,
+      "question": "What is the output of `printf(\"%d\", sizeof(int));` in a 64-bit system?",
+      "options": ["2", "4", "8", "Depends on the OS"],
+      "answer": "4",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "Which data structure is best suited for implementing LRU cache?",
+      "options": ["Stack", "Queue", "HashMap + Doubly Linked List", "Binary Tree"],
+      "answer": "HashMap + Doubly Linked List",
+      "marks": 2
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is used for preventing SQL Injection?",
+      "options": ["Using prepared statements", "Using string concatenation", "Using eval()", "Disabling database security"],
+      "answer": "Using prepared statements",
+      "marks": 2
+    },
+    {
+      "id": 7,
+      "question": "Which protocol is used for secure communication over the internet?",
+      "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+      "answer": "HTTPS",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of an index in a database?",
+      "options": [
+        "To store additional data",
+        "To speed up data retrieval",
+        "To enforce primary key constraints",
+        "To reduce storage space"
+      ],
+      "answer": "To speed up data retrieval",
+      "marks": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a NoSQL database?",
+      "options": ["MongoDB", "PostgreSQL", "Cassandra", "Redis"],
+      "answer": "PostgreSQL",
+      "marks": 2
+    },
+    {
+      "id": 10,
+      "question": "Which scheduling algorithm is used in real-time operating systems?",
+      "options": ["FCFS", "Round Robin", "EDF (Earliest Deadline First)", "SJF"],
+      "answer": "EDF (Earliest Deadline First)",
+      "marks": 2
+    },
+    {
+      "id": 11,
+      "question": "What is the space complexity of Depth First Search (DFS)?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+      "answer": "O(n)",
+      "marks": 2
+    },
+    {
+      "id": 12,
+      "question": "Which type of database normalization eliminates redundant data?",
+      "options": ["1NF", "2NF", "3NF", "BCNF"],
+      "answer": "3NF",
+      "marks": 2
+    },
+    {
+      "id": 13,
+      "question": "What is the primary use of Kubernetes?",
+      "options": ["Version control", "Container orchestration", "Database management", "Security testing"],
+      "answer": "Container orchestration",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "What is the difference between TCP and UDP?",
+      "options": [
+        "TCP is faster than UDP",
+        "UDP is more reliable than TCP",
+        "TCP is connection-oriented, UDP is connectionless",
+        "There is no difference"
+      ],
+      "answer": "TCP is connection-oriented, UDP is connectionless",
+      "marks": 2
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT an object-oriented programming principle?",
+      "options": ["Encapsulation", "Abstraction", "Polymorphism", "Recursion"],
+      "answer": "Recursion",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "What does ACID stand for in database transactions?",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Access, Control, Integrity, Data",
+        "Automated, Concurrent, Integrated, Distributed",
+        "None of the above"
+      ],
+      "answer": "Atomicity, Consistency, Isolation, Durability",
+      "marks": 2
+    },
+    {
+      "id": 17,
+      "question": "Which AWS service is used for serverless computing?",
+      "options": ["EC2", "Lambda", "S3", "DynamoDB"],
+      "answer": "Lambda",
+      "marks": 2
+    },
+    {
+      "id": 18,
+      "question": "Which software development model follows an iterative approach?",
+      "options": ["Waterfall", "Agile", "V-Model", "Spiral"],
+      "answer": "Agile",
+      "marks": 2
+    },
+    {
+      "id": 19,
+      "question": "Which data structure is used for implementing a priority queue?",
+      "options": ["Stack", "Queue", "Heap", "Linked List"],
+      "answer": "Heap",
+      "marks": 2
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of garbage collection in programming languages like Java?",
+      "options": [
+        "To free memory allocated to unused objects",
+        "To allocate more memory",
+        "To delete variables",
+        "To optimize performance"
+      ],
+      "answer": "To free memory allocated to unused objects",
+      "marks": 1
+    }
+  ]
+}
