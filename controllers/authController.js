@@ -55,7 +55,7 @@ exports.login = async (req, res) => {
             return res.status(401).json({ error: "Invalid email or password" });
         }
 
-        const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "1.5h" });
+        const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "2h" });
         res.json({ token, user });  // ✅ Ensure token is sent to frontend
     } catch (error) {
         res.status(500).json({ error: "Login failed" });
