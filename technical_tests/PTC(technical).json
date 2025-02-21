@@ -1,171 +1,41 @@
 {
-  "testName": "Technical Round",
-  "duration": 30,
+  "testName": "Technical Test",
+  "duration": 35,
   "questions": [
-    {
-      "id": 1,
-      "question": "What is the difference between an array and a linked list?",
-      "options": [
-        "Arrays are dynamic, linked lists are static",
-        "Arrays use contiguous memory, linked lists use pointers",
-        "Linked lists have a fixed size, arrays do not",
-        "There is no difference"
-      ],
-      "answer": "Arrays use contiguous memory, linked lists use pointers",
-      "marks": 2
-    },
-    {
-      "id": 2,
-      "question": "Which sorting algorithm has the best average-case time complexity?",
-      "options": ["Bubble Sort", "Merge Sort", "Quick Sort", "Selection Sort"],
-      "answer": "Merge Sort",
-      "marks": 2
-    },
-    {
-      "id": 3,
-      "question": "What is the time complexity of searching in a balanced binary search tree (BST)?",
-      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
-      "answer": "O(log n)",
-      "marks": 2
-    },
-    {
-      "id": 4,
-      "question": "What is the output of `printf(\"%d\", sizeof(int));` in a 64-bit system?",
-      "options": ["2", "4", "8", "Depends on the OS"],
-      "answer": "4",
-      "marks": 1
-    },
-    {
-      "id": 5,
-      "question": "Which data structure is best suited for implementing LRU cache?",
-      "options": ["Stack", "Queue", "HashMap + Doubly Linked List", "Binary Tree"],
-      "answer": "HashMap + Doubly Linked List",
-      "marks": 2
-    },
-    {
-      "id": 6,
-      "question": "Which of the following is used for preventing SQL Injection?",
-      "options": ["Using prepared statements", "Using string concatenation", "Using eval()", "Disabling database security"],
-      "answer": "Using prepared statements",
-      "marks": 2
-    },
-    {
-      "id": 7,
-      "question": "Which protocol is used for secure communication over the internet?",
-      "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
-      "answer": "HTTPS",
-      "marks": 1
-    },
-    {
-      "id": 8,
-      "question": "What is the primary purpose of an index in a database?",
-      "options": [
-        "To store additional data",
-        "To speed up data retrieval",
-        "To enforce primary key constraints",
-        "To reduce storage space"
-      ],
-      "answer": "To speed up data retrieval",
-      "marks": 2
-    },
-    {
-      "id": 9,
-      "question": "Which of the following is NOT a NoSQL database?",
-      "options": ["MongoDB", "PostgreSQL", "Cassandra", "Redis"],
-      "answer": "PostgreSQL",
-      "marks": 2
-    },
-    {
-      "id": 10,
-      "question": "Which scheduling algorithm is used in real-time operating systems?",
-      "options": ["FCFS", "Round Robin", "EDF (Earliest Deadline First)", "SJF"],
-      "answer": "EDF (Earliest Deadline First)",
-      "marks": 2
-    },
-    {
-      "id": 11,
-      "question": "What is the space complexity of Depth First Search (DFS)?",
-      "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
-      "answer": "O(n)",
-      "marks": 2
-    },
-    {
-      "id": 12,
-      "question": "Which type of database normalization eliminates redundant data?",
-      "options": ["1NF", "2NF", "3NF", "BCNF"],
-      "answer": "3NF",
-      "marks": 2
-    },
-    {
-      "id": 13,
-      "question": "What is the primary use of Kubernetes?",
-      "options": ["Version control", "Container orchestration", "Database management", "Security testing"],
-      "answer": "Container orchestration",
-      "marks": 1
-    },
-    {
-      "id": 14,
-      "question": "What is the difference between TCP and UDP?",
-      "options": [
-        "TCP is faster than UDP",
-        "UDP is more reliable than TCP",
-        "TCP is connection-oriented, UDP is connectionless",
-        "There is no difference"
-      ],
-      "answer": "TCP is connection-oriented, UDP is connectionless",
-      "marks": 2
-    },
-    {
-      "id": 15,
-      "question": "Which of the following is NOT an object-oriented programming principle?",
-      "options": ["Encapsulation", "Abstraction", "Polymorphism", "Recursion"],
-      "answer": "Recursion",
-      "marks": 1
-    },
-    {
-      "id": 16,
-      "question": "What does ACID stand for in database transactions?",
-      "options": [
-        "Atomicity, Consistency, Isolation, Durability",
-        "Access, Control, Integrity, Data",
-        "Automated, Concurrent, Integrated, Distributed",
-        "None of the above"
-      ],
-      "answer": "Atomicity, Consistency, Isolation, Durability",
-      "marks": 2
-    },
-    {
-      "id": 17,
-      "question": "Which AWS service is used for serverless computing?",
-      "options": ["EC2", "Lambda", "S3", "DynamoDB"],
-      "answer": "Lambda",
-      "marks": 2
-    },
-    {
-      "id": 18,
-      "question": "Which software development model follows an iterative approach?",
-      "options": ["Waterfall", "Agile", "V-Model", "Spiral"],
-      "answer": "Agile",
-      "marks": 2
-    },
-    {
-      "id": 19,
-      "question": "Which data structure is used for implementing a priority queue?",
-      "options": ["Stack", "Queue", "Heap", "Linked List"],
-      "answer": "Heap",
-      "marks": 2
-    },
-    {
-      "id": 20,
-      "question": "What is the purpose of garbage collection in programming languages like Java?",
-      "options": [
-        "To free memory allocated to unused objects",
-        "To allocate more memory",
-        "To delete variables",
-        "To optimize performance"
-      ],
-      "answer": "To free memory allocated to unused objects",
-      "marks": 1
-    }
+    { "id": 21, "question": "Which of the following is not a Java feature?", "options": ["Object-Oriented", "Platform-Independent", "Supports Multiple Inheritance through classes", "Compiled and Interpreted"], "answer": "Supports Multiple Inheritance through classes", "marks": 2 },
+    { "id": 22, "question": "Which of these cannot be used for a variable name in Java?", "options": ["_myVar", "int", "$result", "myVar1"], "answer": "int", "marks": 2 },
+    { "id": 23, "question": "What is the default value of a boolean variable in Java?", "options": ["true", "false", "0", "null"], "answer": "false", "marks": 2 },
+    { "id": 24, "question": "Which method is called when an object is garbage collected in Java?", "options": ["destroy()", "finalize()", "delete()", "clean()"], "answer": "finalize()", "marks": 2 },
+    { "id": 25, "question": "Which of the following is a valid declaration of a package in Java?", "options": ["package java.util;", "package.util;", "pack java.util;", "package:java.util;"], "answer": "package java.util;", "marks": 2 },
+    { "id": 26, "question": "Which Java keyword prevents inheritance of a class?", "options": ["static", "final", "super", "abstract"], "answer": "final", "marks": 2 },
+    { "id": 27, "question": "Which data type is used to create a variable that holds text in Java?", "options": ["String", "Char", "Text", "Character"], "answer": "String", "marks": 2 },
+    { "id": 28, "question": "Which of the following is not a valid storage class in C?", "options": ["auto", "register", "static", "mutable"], "answer": "mutable", "marks": 2 },
+    { "id": 29, "question": "What is the size of an int data type in C on a 32-bit system?", "options": ["2 bytes", "4 bytes", "8 bytes", "Compiler-dependent"], "answer": "4 bytes", "marks": 2 },
+    { "id": 30, "question": "Which function is used to dynamically allocate memory in C?", "options": ["alloc()", "malloc()", "calloc()", "Both b and c"], "answer": "Both b and c", "marks": 2 },
+    { "id": 31, "question": "What is the result of the expression 5 & 3 in C?", "options": ["7", "1", "0", "8"], "answer": "1", "marks": 2 },
+    { "id": 32, "question": "Which header file is required for printf() function?", "options": ["stdlib.h", "stdio.h", "conio.h", "math.h"], "answer": "stdio.h", "marks": 2 },
+    { "id": 33, "question": "What will sizeof(char) return in C?", "options": ["1", "2", "4", "8"], "answer": "1", "marks": 2 },
+    { "id": 34, "question": "Which of the following supports polymorphism in C++?", "options": ["Function Overloading", "Operator Overloading", "Virtual Functions", "All of the above"], "answer": "All of the above", "marks": 2 },
+    { "id": 35, "question": "Which access specifier makes a member visible only within its own class in C++?", "options": ["public", "protected", "private", "friend"], "answer": "private", "marks": 2 },
+    { "id": 36, "question": "Which of these is used for dynamic memory allocation in C++?", "options": ["new", "malloc()", "alloc()", "calloc()"], "answer": "new", "marks": 2 },
+    { "id": 37, "question": "What is the size of a pointer on a 64-bit C++ compiler?", "options": ["2 bytes", "4 bytes", "8 bytes", "16 bytes"], "answer": "8 bytes", "marks": 2 },
+    { "id": 38, "question": "What does the this pointer point to in C++?", "options": ["Current class object", "Next object in memory", "Previous object in memory", "None of the above"], "answer": "Current class object", "marks": 2 },
+    { "id": 39, "question": "Which SQL command is used to remove a table from a database?", "options": ["DELETE", "REMOVE", "DROP", "ERASE"], "answer": "DROP", "marks": 2 },
+    { "id": 40, "question": "What does the GROUP BY statement do in SQL?", "options": ["Filters rows", "Groups rows sharing a property", "Sorts data in descending order", "Removes duplicates"], "answer": "Groups rows sharing a property", "marks": 2 },
+    { "id": 41, "question": "Which SQL clause is used to filter the results of a GROUP BY operation?", "options": ["WHERE", "HAVING", "ORDER BY", "LIMIT"], "answer": "HAVING", "marks": 2 },
+    { "id": 42, "question": "What is the result of SELECT COUNT(*) FROM table_name?", "options": ["Total number of columns", "Total number of rows", "Maximum value", "Minimum value"], "answer": "Total number of rows", "marks": 2 },
+    { "id": 43, "question": "Which SQL keyword is used to retrieve unique values?", "options": ["UNIQUE", "DISTINCT", "PRIMARY", "UNION"], "answer": "DISTINCT", "marks": 2 },
+    { "id": 44, "question": "Which command is used to remove all records from a table but keeps its structure intact?", "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"], "answer": "TRUNCATE", "marks": 2 },
+    { "id": 45, "question": "What is a foreign key in SQL?", "options": ["A unique identifier", "A primary key in another table", "A duplicate key", "A non-unique identifier"], "answer": "A primary key in another table", "marks": 2 },
+    { "id": 46, "question": "Which SQL statement is used to update data in a database?", "options": ["MODIFY", "UPDATE", "SET", "CHANGE"], "answer": "UPDATE", "marks": 2 },
+    { "id": 47, "question": "Which type of join returns rows that have matching values in both tables?", "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"], "answer": "INNER JOIN", "marks": 2 },
+    { "id": 48, "question": "What is normalization in databases?", "options": ["Organizing data to reduce redundancy", "Duplicating data", "Adding foreign keys", "Removing NULL values"], "answer": "Organizing data to reduce redundancy", "marks": 2 },
+    { "id": 49, "question": "Which testing ensures that new changes haven't broken existing functionality?", "options": ["Unit Testing", "Regression Testing", "Smoke Testing", "Integration Testing"], "answer": "Regression Testing", "marks": 2 },
+    { "id": 50, "question": "Which type of testing is done without planning and documentation?", "options": ["Ad-hoc Testing", "Unit Testing", "System Testing", "Load Testing"], "answer": "Ad-hoc Testing", "marks": 2 },
+    { "id": 51, "question": "In which phase does white-box testing occur?", "options": ["Validation", "Verification", "Integration", "System Testing"], "answer": "Verification", "marks": 2 },
+    { "id": 52, "question": "What is black-box testing?", "options": ["Testing internal code", "Testing without looking at internal code", "Integration testing", "Performance testing"], "answer": "Testing without looking at internal code", "marks": 2 },
+    { "id": 53, "question": "Which testing type verifies whether the software meets business requirements?", "options": ["Acceptance Testing", "System Testing", "Performance Testing", "Unit Testing"], "answer": "Acceptance Testing", "marks": 2 }
+    { "id": 54, "question": "What is Selenium WebDriver primarily used for?", "options": ["Unit testing of Java applications", "Automating web application testing across different browsers", " Performance testing of desktop applications", " Writing SQL queries for databases"], "answer": "Automating web application testing across different browsers", "marks": 2 }
+    { "id": 55, "question": "Which command is used in Selenium WebDriver to navigate to a web page?", "options": ["driver.open()", "driver.launch()", "driver.navigate()", "driver.get()"], "answer": "driver.get()", "marks": 2 }
   ]
 }
