@@ -34,8 +34,8 @@
     { "id": 50, "question": "Which type of testing is done without planning and documentation?", "options": ["Ad-hoc Testing", "Unit Testing", "System Testing", "Load Testing"], "answer": "Ad-hoc Testing", "marks": 2 },
     { "id": 51, "question": "In which phase does white-box testing occur?", "options": ["Validation", "Verification", "Integration", "System Testing"], "answer": "Verification", "marks": 2 },
     { "id": 52, "question": "What is black-box testing?", "options": ["Testing internal code", "Testing without looking at internal code", "Integration testing", "Performance testing"], "answer": "Testing without looking at internal code", "marks": 2 },
-    { "id": 53, "question": "Which testing type verifies whether the software meets business requirements?", "options": ["Acceptance Testing", "System Testing", "Performance Testing", "Unit Testing"], "answer": "Acceptance Testing", "marks": 2 }
-    { "id": 54, "question": "What is Selenium WebDriver primarily used for?", "options": ["Unit testing of Java applications", "Automating web application testing across different browsers", " Performance testing of desktop applications", " Writing SQL queries for databases"], "answer": "Automating web application testing across different browsers", "marks": 2 }
+    { "id": 53, "question": "Which testing type verifies whether the software meets business requirements?", "options": ["Acceptance Testing", "System Testing", "Performance Testing", "Unit Testing"], "answer": "Acceptance Testing", "marks": 2 },
+    { "id": 54, "question": "What is Selenium WebDriver primarily used for?", "options": ["Unit testing of Java applications", "Automating web application testing across different browsers", " Performance testing of desktop applications", " Writing SQL queries for databases"], "answer": "Automating web application testing across different browsers", "marks": 2 },
     { "id": 55, "question": "Which command is used in Selenium WebDriver to navigate to a web page?", "options": ["driver.open()", "driver.launch()", "driver.navigate()", "driver.get()"], "answer": "driver.get()", "marks": 2 }
   ]
 }
